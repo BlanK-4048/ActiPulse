@@ -94,6 +94,7 @@ def process_video(cap):
                 print(x)
             if key_pressed == ord("q"):
                 alarm_mode = False
+                print("Quitting")
                 break
     except KeyboardInterrupt:
         print("\nProgram interrupted manually. Exiting...")
